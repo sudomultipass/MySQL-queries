@@ -1,7 +1,7 @@
 ALTER TABLE 
-	customer 
-ADD COLUMN 
-	birth_date DATE 
+	customer
+ADD COLUMN
+	birth_date DATE
 GENERATED ALWAYS AS (
 	DATE(
 		CONCAT_WS(
